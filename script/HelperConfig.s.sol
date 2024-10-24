@@ -90,6 +90,7 @@ contract HelperConfig is CodeConstants, Script {
             subscriptionId: 0, // might have to fix this
             link: address(linkToken)
         });
+
         return localNetworkConfig;
     }
 }
