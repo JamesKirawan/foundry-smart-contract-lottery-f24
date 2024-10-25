@@ -48,6 +48,7 @@ contract InteractionTest is Test {
 
         // Act / Assert
         (subscriptionId, ) = createSubscription.createSubscriptionUsingConfig();
+        assert(subscriptionId != 0);
     }
 
     /*//////////////////////////////////////////////////////////////
